@@ -1,16 +1,16 @@
 {
-  "homepage": "https://nesaarpa.github.io/DreamTradeLLC/",
-  "name": "magic-patterns-vite-template",
+  "homepage": "https://www.dreamtradellc.com",
+  "name": "dreamtradellc",
   "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "preview": "npx vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -19,19 +19,11 @@
     "lucide-react": "0.522.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.18",
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.50.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.1",
-    "typescript": "^5.5.4",
     "vite": "^5.2.0",
     "tailwindcss": "3.4.17",
     "autoprefixer": "latest",
-    "postcss": "latest"
+    "postcss": "latest",
+    "typescript": "^5.5.4"
   }
 }
