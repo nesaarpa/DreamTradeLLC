@@ -9,7 +9,7 @@ import { Footer } from './components/Footer';
 
 export function AppRouter() {
   return (
-    <BrowserRouter basename="/DreamTradeLLC">
+    <BrowserRouter>
       <div className="flex flex-col min-h-screen bg-white">
         <Header />
         <main className="flex-grow">
