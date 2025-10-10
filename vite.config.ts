@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // temporary: load everything relative
+  base: '/', // since you’re using a custom domain (not GitHub subpath)
 })
