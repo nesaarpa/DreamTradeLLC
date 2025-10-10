@@ -6,8 +6,10 @@ import { Services } from './pages/Services';
 import { Contact } from './pages/Contact';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+
 export function AppRouter() {
-  return <BrowserRouter>
+  return (
+    <BrowserRouter basename="/DreamTradeLLC">
       <div className="flex flex-col min-h-screen bg-white">
         <Header />
         <main className="flex-grow">
@@ -20,5 +22,6 @@ export function AppRouter() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>;
+    </BrowserRouter>
+  );
 }
