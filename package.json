@@ -1,4 +1,11 @@
 {
+  "homepage": "https://nesaarpa.github.io/DreamTradeLLC/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    // your other scripts ...
+  },
+  
   "name": "magic-patterns-vite-template",
   "version": "0.0.1",
   "private": true,
