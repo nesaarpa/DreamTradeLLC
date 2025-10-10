@@ -1,9 +1,9 @@
 {
+  "homepage": "https://nesaarpa.github.io/DreamTradeLLC/",
   "name": "magic-patterns-vite-template",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://nesaarpa.github.io/DreamTradeLLC/",
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",
@@ -32,7 +32,6 @@
     "vite": "^5.2.0",
     "tailwindcss": "3.4.17",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "gh-pages": "^6.1.1"
+    "postcss": "latest"
   }
 }
