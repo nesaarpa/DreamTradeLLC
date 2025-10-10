@@ -2,7 +2,7 @@ name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # change to "master" if your default branch is master
+    branches: [ main ] # change if your default branch is different
   workflow_dispatch:
 
 permissions:
@@ -31,6 +31,10 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      # ✅ Add your custom domain file
+      - name: Add CNAME file
+        run: echo "www.dreamtradellc.com" > ./dist/CNAME
 
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
